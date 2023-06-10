@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font awesome cdn  -->
+    <title>Type form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="logo">
+          <a href="#">My workspace / My typeform</a>
+        </div>
+        <div class="navbar">
+          <ul>
+            <li><a class="active" href="#">create</a></li>
+            <li><a href="#">content</a></li>
+            <li><a href="#">share</a></li>
+            <li><a href="#">results</a></li>
+          </ul>
+        </div>
+        <div class="btn">
+          <i class="fa-regular fa-eye"></i>
+          <button class="btn-publish">publish</button>
+          <button class="btn-plans">view plans</button>
+          <img class="profile-img" src="profile logo.png" alt="profile logo" />
+        </div>
+      </nav>
+      <hr />
+    </header>
+    <!-- --------------------------------------------------------- -->
+
+    <section id="details__part">
+      <div class="container">
+        <div class="content">
+          <div class="starting">
+            <div class="heading">
+              <h4>content</h4>
+              <button>
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+            <div class="names">
+              <div class="bars">
+                <i class="fa-solid fa-bars-progress"></i>
+                <p>1</p>
+              </div>
+              <div class="name">
+                <p>Hello,What's your name?</p>
+              </div>
+            </div>
+            <div class="names">
+              <div class="bars check-part">
+                <i class="fa-solid fa-check"></i>
+                <p>1</p>
+              </div>
+              <div class="name">
+                <p>Hello,What's your name?</p>
+              </div>
+            </div>
+          </div>
+          <div class="ending">
+            <h4>Endings</h4>
+            <button><i class="fa-solid fa-plus"></i></button>
+          </div>
+          <div class="signal">
+            <i class="fa-solid fa-tower-cell"></i>
+            <i class="fa-solid fa-a"></i>
+          </div>
+        </div>
+        <!-- --------------------------------------------------- -->
+        <div class="banner">
+          <div class="banner__information">
+            <div class="information__part">
+              <div class="name-part">
+                <span class="num">1</span>
+                <i class="fa-solid fa-arrow-right"></i>
+                <h2>Hello, What's your name?</h2>
+              </div>
+              <p>Description (optional)</p>
+              <h4>Type your answer here...</h4>
+            </div>
+            <div class="picture__part">
+              <img src="banner img.png" alt="hero image" />
+            </div>
+          </div>
+          <div class="icons">
+            <div class="left__icon">
+              <button><i class="fa-solid fa-backward-fast"></i></button>
+              <button><i class="fa-solid fa-universal-access"></i></button>
+            </div>
+            <div class="right-icon">
+              <a href="#">Help?</a>
+              <a href="#">Feedback?</a>
+              <button><i class="fa-solid fa-forward-fast"></i></button>
+            </div>
+          </div>
+        </div>
+        <!-- ================================================ -->
+        <div class="functions">
+          <div class="links">
+            <ul>
+              <li><a class="active" href="#">question</a></li>
+              <li><a href="#">design</a></li>
+              <li><a href="#">logic</a></li>
+              <button class="settings">
+                <i class="fa-solid fa-gear"></i>
+              </button>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <h4>Type</h4>
+            <form action="">
+              <select name="type" id="type">
+                <!-- <i class="fa-solid fa-bars-progress"></i> -->
+                <option value="Short Text">Short Text</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+              </select>
+            </form>
+          </div>
+          <div class="on-off-button">
+            <h4>Settings</h4>
+            <div class="required-btn">
+              <p>Required</p>
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div class="required-btn">
+              <p>Max characters</p>
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+          <div class="image-or-video">
+            <h3>image or video</h3>
+            <i class="fa-solid fa-image"></i>
+            <i class="fa-solid fa-sliders"></i>
+            <i class="fa-solid fa-trash"></i>
+          </div>
+          <div class="layout">
+            <h3>Layout</h3>
+            <div class="random">
+              <div class="div">1</div>
+              <div class="div">2</div>
+              <div class="div">3</div>
+              <div class="div">4</div>
+              <div class="div">5</div>
+              <div class="div">6</div>
+            </div>
+          </div>
+          <div class="focal__point">
+            <h3>Focal Point</h3>
+            <img src="banner img.png" alt="" />
+            <div class="reset-btn">
+              <button>Reset</button>
+            </div>
+          </div>
+          <div class="brightness">
+            <label for="vol">Brightness:</label>
+            <div class="range">
+              <input type="range" id="vol" name="vol" min="0" max="50" />
+              <button>0</button>
+            </div>
+          </div>
+          <div class="textarea">
+            <div class="head">
+              <h4>Alt</h4>
+              <a href="#">Help?</a>
+            </div>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <div class="check-box">
+              <div class="check">
+                <input type="checkbox" name="decorative" id="decorative" />
+                <p>Decorative image</p>
+              </div>
+              <button>?</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
